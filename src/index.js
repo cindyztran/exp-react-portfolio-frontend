@@ -9,11 +9,11 @@ import { BrowserRouter as Router }
 
 //wrap app inside of router to enable using router
 ReactDOM.render(
-  <React.StrictMode>
-  <Route>
-    <App />
-  </Route>
-  </React.StrictMode>,
+  <Router>
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  </Router>,
   document.getElementById('root')
 );
 
