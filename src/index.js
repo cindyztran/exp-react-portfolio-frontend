@@ -5,7 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 //import router
-import { BrowserRouter as Router }
+import { BrowserRouter as Router } from "react-router-dom";
 
 //wrap app inside of router to enable using router
 ReactDOM.render(
