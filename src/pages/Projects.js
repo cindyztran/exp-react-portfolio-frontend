@@ -1,8 +1,8 @@
-import { iseState, useEffect} from "react";
+import { useState, useEffect} from "react";
 
 function Projects(props) {
     //create a state variable to hold the projects data
-    const [project, setProjects] = useState(null);
+    const [projects, setProjects] = useState(null);
     const getProjectsData = async () => {
         //make api call and get response
         const response = await fetch(props.URL + "projects");
