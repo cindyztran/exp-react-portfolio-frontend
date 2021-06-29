@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 
 function About(props) {
@@ -25,8 +26,8 @@ function About(props) {
             <h2>
                 {about.name}
             </h2>
-            <h3>{about.email}</h3>
-            <p>{about.bio}</p>
+            <h3 className="about-txt">{about.email}</h3>
+            <p className="about-txt">{about.bio}</p>
         </div>
     );
     //if data arrives return result of loaded, if not return an h1 that says loading
